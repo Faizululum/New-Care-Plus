@@ -9,9 +9,9 @@ export default function Home() {
 
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[496px]">
-          <Image 
-            src="/assets/icons/logo-full.svg" 
-            height={1000} 
+          <Image
+            src="/assets/icons/logo-full.svg"
+            height={1000}
             width={1000}
             alt="patient"
             className="mb-12 h10 w-fit"
@@ -30,7 +30,7 @@ export default function Home() {
         </div>
       </section>
 
-      <Image 
+      <Image
         src="/assets/images/onboarding-img.png"
         width={1000}
         height={1000}
@@ -38,5 +38,5 @@ export default function Home() {
         className="side-img max-w-[50%]"
       />
     </div>
-  )
+  );
 }
